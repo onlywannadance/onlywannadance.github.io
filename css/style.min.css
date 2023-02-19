@@ -1351,7 +1351,6 @@ template {
   }
   .use__wrapper {
     padding: 0;
-    grid-template-columns: repeat(2, 270px);
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1438,7 +1437,7 @@ template {
     grid-template-columns: repeat(auto-fit, 270px);
   }
   .use__ratings {
-    grid-template: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, 300px);
   }
   .portfolio__wrapper {
     grid-template: repeat(2, 164px)/repeat(2, 156px);

@@ -172,7 +172,6 @@
         padding-top: 40px;
         &__wrapper {
             padding: 0;
-            grid-template-columns: repeat(2, 270px);
             justify-content: center;
             gap: 20px;
         }
@@ -262,7 +261,7 @@
             grid-template-columns: repeat(auto-fit,270px);
         }
         &__ratings {
-            grid-template: repeat(auto-fit,300px);
+            grid-template-columns: repeat(auto-fit,300px);
         }
     }
     .portfolio {
