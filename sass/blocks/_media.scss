@@ -234,12 +234,16 @@
         }
     }
     .promo {
-        background: url('../img/main_bg6.jpg') no-repeat 57%/cover;
+        background: url('../img/main_bg6.jpg') no-repeat 5%/cover;
+        min-height: 40vh;
+        position: relative;
+        padding-top: 100px;
         &__btns {
             margin-top: 30px;
         }
     }
     .about {
+        padding-top: 15px;
         &__wrapper {
             grid-template: 340px auto auto / 1fr;
         }
