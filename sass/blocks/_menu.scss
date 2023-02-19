@@ -1,4 +1,5 @@
 .hamburger {
+    
     display: flex;
     flex-direction: column;
     align-items:flex-end;
@@ -37,11 +38,12 @@
 }
 
 .menu {
+    height: calc(100vh - 50px);
+    overflow: auto;
     position: fixed;
     top: 0;
     left: -100%;
     width: 100%;
-    height: 100vh;
     z-index: 10;
     visibility: hidden;
     opacity: 0;

@@ -43,16 +43,14 @@
         }
     }
     &__ratings {
-        display: grid;
         margin-top: 120px;
-        grid-template-rows: repeat(2, 70px);
-        grid-template-columns: repeat(3, 350px);
-        justify-content: space-between;
-        row-gap: 30px;
+        display: grid;
+        grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 350px);
+        column-gap: 45px;
+        row-gap: 35px;
         &-item {
             display: grid;
-            grid-template-rows: 25px 15px;
-            grid-template-columns: 285px 48px;
+            grid-template: minmax(21px, auto) 14px / 200px 35px;
             justify-content: space-between;
             align-content: space-between;
         }
