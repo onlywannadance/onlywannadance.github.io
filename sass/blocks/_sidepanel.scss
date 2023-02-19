@@ -1,0 +1,40 @@
+.sidepanel {
+    position: fixed;
+    top: 220px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 340px;
+    z-index: 3;
+    &__link {
+        &__telegram_icon {
+            transform: rotate(-90deg);
+        }
+        &__vk_icon {
+            transform: rotate(-90deg);
+        }
+        &:hover {
+            svg path {
+                fill: $main-color;
+            }
+        }
+    }
+    &__divider {
+         width: 2px;
+         height: 70px;
+         background-color: black;
+    }
+    &__text {
+        height: 100px;
+        width: 25px;
+        span {
+            transform: rotate(-90deg) translate(-35%, -270%);
+            display: block;
+            width: 150px;
+        }
+    }
+}
+
+

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <meta name="title" content="Мое портфолио">
+    <meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Мое портфолио">
+    <meta property="og:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Мое портфолио">
+    <meta property="twitter:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Сделать кроссплатформенную иконку со своим лицом -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+</head>
+<body>
+
+    <aside class="sidepanel">
+        <a href="https://t.me/callme_kirusha" name='telegram' class="sidepanel__link">
+            <svg class="sidepanel__link__telegram_icon" width="24" height="24" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 30C23.2863 30 30 23.2863 30 15C30 6.71375 23.2863 0 15 0C6.71375 0 0 6.71375 0 15C0 23.2863 6.71375 30 15 30ZM6.86375 14.675L21.3263 9.09875C21.9975 8.85625 22.5837 9.2625 22.3662 10.2775L22.3675 10.2762L19.905 21.8775C19.7225 22.7 19.2337 22.9 18.55 22.5125L14.8 19.7487L12.9912 21.4913C12.7912 21.6913 12.6225 21.86 12.235 21.86L12.5013 18.0438L19.4513 11.765C19.7537 11.4987 19.3837 11.3488 18.985 11.6138L10.3963 17.0212L6.69375 15.8663C5.89 15.6112 5.8725 15.0625 6.86375 14.675Z" fill="black"/>
+            </svg>
+        </a>
+        <a href="https://github.com/onlywannadance" name='git' class="sidepanel__link">
+            <svg class="sidepanel__link__github_icon" width="24" height="24" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-4.37114e-07 9.99951C-1.95608e-07 15.5245 4.36167 19.9995 9.74107 19.9995C14.0457 19.9995 17.6962 17.1345 18.9832 13.162C19.0749 12.662 18.7734 12.4787 18.5148 12.4787C18.2835 12.4787 17.6706 12.487 16.8585 12.4912C17.4459 15.2728 15.5517 15.8595 15.5517 15.8595C14.4274 16.3145 14.1267 16.972 14.1267 16.972C13.5228 17.8778 13.5352 16.902 13.5352 16.902C13.603 15.8978 14.5389 15.3703 14.5389 15.3703C16.0283 14.4787 15.5979 13.0295 15.3493 12.4578C14.719 12.3678 14.2903 12.1103 14.0466 11.8245C13.8029 14.0453 12.9652 16.3795 9.23304 16.3795C8.16988 16.3795 7.30085 15.992 6.61933 15.3503C6.37316 15.4628 5.3827 15.8003 4.04116 15.2628C4.04116 15.2628 3.78012 14.4253 5.03988 12.5128C4.82345 11.7128 4.71606 10.8628 4.7111 10.0128C4.71606 9.16284 4.82345 8.31285 5.03988 7.51284C3.78012 5.61285 4.04116 4.77535 4.04116 4.77535C5.3827 4.23785 6.37316 4.57534 6.61933 4.67535C7.30085 4.03785 8.16988 3.65035 9.23304 3.65035C12.9752 3.65035 13.7987 5.98784 14.0383 8.21284C14.3307 7.86284 14.928 7.53784 15.8408 7.53784C17.1444 7.53784 18.1918 7.55034 18.5082 7.55034C18.7635 7.55034 19.0683 7.37534 18.9708 6.86284C17.692 2.86201 14.0391 -0.000488895 9.74107 -0.000488707C4.36167 -0.000488472 -6.7851e-07 4.47701 -4.37114e-07 9.99951Z" fill="#212121"/>
+            </svg>
+        </a>
+        <a href="https://vk.com/callme_kirusha" name='vk' class="sidepanel__link">
+            <svg class="sidepanel__link__vk_icon" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+                <path d="M15.07294,2H8.9375C3.33331,2,2,3.33331,2,8.92706V15.0625C2,20.66663,3.32294,22,8.92706,22H15.0625C20.66669,22,22,20.67706,22,15.07288V8.9375C22,3.33331,20.67706,2,15.07294,2Zm3.07287,14.27081H16.6875c-.55206,0-.71875-.44793-1.70831-1.4375-.86463-.83331-1.22919-.9375-1.44794-.9375-.30206,0-.38544.08332-.38544.5v1.3125c0,.35419-.11456.5625-1.04162.5625a5.69214,5.69214,0,0,1-4.44794-2.66668A11.62611,11.62611,0,0,1,5.35419,8.77081c0-.21875.08331-.41668.5-.41668H7.3125c.375,0,.51044.16668.65625.55212.70831,2.08331,1.91669,3.89581,2.40625,3.89581.1875,0,.27081-.08331.27081-.55206V10.10413c-.0625-.97913-.58331-1.0625-.58331-1.41663a.36008.36008,0,0,1,.375-.33337h2.29169c.3125,0,.41662.15625.41662.53125v2.89587c0,.3125.13544.41663.22919.41663.1875,0,.33331-.10413.67706-.44788a11.99877,11.99877,0,0,0,1.79169-2.97919.62818.62818,0,0,1,.63544-.41668H17.9375c.4375,0,.53125.21875.4375.53125A18.20507,18.20507,0,0,1,16.41669,12.25c-.15625.23956-.21875.36456,0,.64581.14581.21875.65625.64582,1,1.05207a6.48553,6.48553,0,0,1,1.22912,1.70837C18.77081,16.0625,18.5625,16.27081,18.14581,16.27081Z"/>
+            </svg>
+        </a>
+        <div class="sidepanel__divider"></div>
+        <div class="sidepanel__text title title_fz16"><span>Социальные сети</span></div>
+    </aside>
+
+    <div class="menu">
+        <div class="menu__block">
+            <div class="menu__close">
+                <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z" fill="black"/>
+                </svg>
+            </div>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__link"><a href="#about">Про меня</a></li>
+                    <li class="menu__link"><a href="#expirience">Мой опыт</a></li>
+                    <li class="menu__link"><a href="#use">Мои навыки</a></li>
+                    <li class="menu__link"><a href="#portfolio">Мои работы</a></li>
+                    <li class="menu__link"><a href="#price">Прайс-лист</a></li>
+                    <li class="menu__link"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu__social">
+                <a href="https://t.me/callme_kirusha" class="menu__social__link">
+                    <svg class="menu__social__link__telegram_icon" width="24" height="24" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">     
+                        <path d="M15 30C23.2863 30 30 23.2863 30 15C30 6.71375 23.2863 0 15 0C6.71375 0 0 6.71375 0 15C0 23.2863 6.71375 30 15 30ZM6.86375 14.675L21.3263 9.09875C21.9975 8.85625 22.5837 9.2625 22.3662 10.2775L22.3675 10.2762L19.905 21.8775C19.7225 22.7 19.2337 22.9 18.55 22.5125L14.8 19.7487L12.9912 21.4913C12.7912 21.6913 12.6225 21.86 12.235 21.86L12.5013 18.0438L19.4513 11.765C19.7537 11.4987 19.3837 11.3488 18.985 11.6138L10.3963 17.0212L6.69375 15.8663C5.89 15.6112 5.8725 15.0625 6.86375 14.675Z" fill="black"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/onlywannadance" class="menu__social__link">
+                    <svg class="menu__social__link__github_icon" width="24" height="24" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-4.37114e-07 9.99951C-1.95608e-07 15.5245 4.36167 19.9995 9.74107 19.9995C14.0457 19.9995 17.6962 17.1345 18.9832 13.162C19.0749 12.662 18.7734 12.4787 18.5148 12.4787C18.2835 12.4787 17.6706 12.487 16.8585 12.4912C17.4459 15.2728 15.5517 15.8595 15.5517 15.8595C14.4274 16.3145 14.1267 16.972 14.1267 16.972C13.5228 17.8778 13.5352 16.902 13.5352 16.902C13.603 15.8978 14.5389 15.3703 14.5389 15.3703C16.0283 14.4787 15.5979 13.0295 15.3493 12.4578C14.719 12.3678 14.2903 12.1103 14.0466 11.8245C13.8029 14.0453 12.9652 16.3795 9.23304 16.3795C8.16988 16.3795 7.30085 15.992 6.61933 15.3503C6.37316 15.4628 5.3827 15.8003 4.04116 15.2628C4.04116 15.2628 3.78012 14.4253 5.03988 12.5128C4.82345 11.7128 4.71606 10.8628 4.7111 10.0128C4.71606 9.16284 4.82345 8.31285 5.03988 7.51284C3.78012 5.61285 4.04116 4.77535 4.04116 4.77535C5.3827 4.23785 6.37316 4.57534 6.61933 4.67535C7.30085 4.03785 8.16988 3.65035 9.23304 3.65035C12.9752 3.65035 13.7987 5.98784 14.0383 8.21284C14.3307 7.86284 14.928 7.53784 15.8408 7.53784C17.1444 7.53784 18.1918 7.55034 18.5082 7.55034C18.7635 7.55034 19.0683 7.37534 18.9708 6.86284C17.692 2.86201 14.0391 -0.000488895 9.74107 -0.000488707C4.36167 -0.000488472 -6.7851e-07 4.47701 -4.37114e-07 9.99951Z" fill="#212121"/>
+                    </svg>
+                </a>
+                <a href="https://vk.com/callme_kirusha" class="menu__social__link">
+                    <svg class="menu__social__link__vk_icon" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+                        <path d="M15.07294,2H8.9375C3.33331,2,2,3.33331,2,8.92706V15.0625C2,20.66663,3.32294,22,8.92706,22H15.0625C20.66669,22,22,20.67706,22,15.07288V8.9375C22,3.33331,20.67706,2,15.07294,2Zm3.07287,14.27081H16.6875c-.55206,0-.71875-.44793-1.70831-1.4375-.86463-.83331-1.22919-.9375-1.44794-.9375-.30206,0-.38544.08332-.38544.5v1.3125c0,.35419-.11456.5625-1.04162.5625a5.69214,5.69214,0,0,1-4.44794-2.66668A11.62611,11.62611,0,0,1,5.35419,8.77081c0-.21875.08331-.41668.5-.41668H7.3125c.375,0,.51044.16668.65625.55212.70831,2.08331,1.91669,3.89581,2.40625,3.89581.1875,0,.27081-.08331.27081-.55206V10.10413c-.0625-.97913-.58331-1.0625-.58331-1.41663a.36008.36008,0,0,1,.375-.33337h2.29169c.3125,0,.41662.15625.41662.53125v2.89587c0,.3125.13544.41663.22919.41663.1875,0,.33331-.10413.67706-.44788a11.99877,11.99877,0,0,0,1.79169-2.97919.62818.62818,0,0,1,.63544-.41668H17.9375c.4375,0,.53125.21875.4375.53125A18.20507,18.20507,0,0,1,16.41669,12.25c-.15625.23956-.21875.36456,0,.64581.14581.21875.65625.64582,1,1.05207a6.48553,6.48553,0,0,1,1.22912,1.70837C18.77081,16.0625,18.5625,16.27081,18.14581,16.27081Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="menu__overlay">
+
+        </div>
+    </div>
+
+    <section class="promo">
+        <div class="container">
+            <div class="hamburger">
+                <span></span>
+                <span class="long"></span>
+                <span></span>
+            </div>
+            <div class="title title_fz16 promo__subtitle">Привет, меня зовут Кирилл!</div>
+            <h1 class="title title_fz64 promo__title">Я web-разработчик
+            из города Тула</h1> 
+            <div class="promo__btns">
+                <a href="#portfolio" class="promo__link btn">Портфолио</a>
+                <a href="#about" class="promo__link">Про меня</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about__wrapper">
+
+                <div class="about__photo">
+                    <img src="img/main_photo.jpg" alt="main_photo">
+                </div>
+
+                <div class="about__descr">
+                    <h2 class="title title_fz16 about__title">Про меня</h2>
+                    <div class="title title_fz36">Меня зовут Кирилл</div>
+                    <div class="divider"></div>
+                    <div class="about__text">Frontend-разработчик с 1+ годом опыта работы. Использовал HTML, CSS, JS. Работал как на фриланс, так и в большой организации. Разрабатывал сайты, делал лэндинги, магазины и т.д.Страстно интересуюсь frontend-разработкой и всем, что с этим связано.
+                    </div>
+                </div>
+
+                <div class="about__skills">
+
+                    <div class="about__skills-item">
+                        <div class="about__skills-circle">
+                            <img src="icons/about_me/web_development.svg" alt="desctop_development">
+                        </div>
+                        <div class="about__skills-title title_fz14">Desctop first</div>
+                        <div class="about__skills-text">
+                            Подход при котором разработка ведется для многофункциональных проектов, ориентированных на пользователей настольных компьютеров. В первую очередь описываются стили, предназначенные для компьютеров, а затем (если требуется) дизайн дорабатывается для планшетных устройств и смартфонов. 
+                        </div>
+                    </div>
+
+                    <div class="about__skills-item">
+                        <div class="about__skills-circle">
+                            <img src="icons/about_me/mobile_dev.svg" alt="mobile_dev">
+                        </div>
+                        <div class="about__skills-title title_fz14">Mobile first</div>
+                        <div class="about__skills-text">
+                            Рисуется дизайн для пользователей смартфонов. На основе этого дизайна пишется код. 
+                            Если нужно — делают отдельную версию для компьютера, если нет — доделывают мобильный дизайн, чтобы он «расширялся» до большого экрана.
+                        </div>
+                    </div>
+
+                    <div class="about__skills-item">
+                        <div class="about__skills-circle">
+                            <img src="icons/about_me/design.svg" alt="design">
+                        </div>
+                        <div class="about__skills-title title_fz14">UI/UX Design</div>
+                        <div class="about__skills-text">
+                            Разработка  интерфейса, который будет отвечать потребностям и ожиданиям пользователей. Для этого необходимо уметь идентифицировать целевых пользователей продукта и понимать их вкусы, потребности, стремления и модели поведения.
+                            <br><br>
+                            СТЭК: Figma, Adobe Photoshop, Zeplin
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+       
+    <section id="expirience" class="expirience">
+        <div class="container">
+            <h2 class="title title_fz16 expirience__title">Опыт</h2>
+            <div class="title title_fz36 expirience__subtitle">Чем я могу быть полезен</div>
+            <div class="divider"></div>
+
+            <div class="expirience__wrapper">
+                <div class="expirience__column">
+                    <h3 class="title title_fz20 expirience__column-title">Образование</h3>
+                    <ul>
+                        <li>
+                            <div class="expirience__item">
+                                <div class="expirience__item-head">
+                                    <div class="expirience__item-icon">
+                                        <img src="icons/experience/university.svg" alt="university">
+                                    </div>
+                                    <h4 class="title title_fz14">Тульский государственный университет</h4>
+                                    <div class="expirience__item-subtitle">Диплом бакалавра | Тула (2018-2022)</div>
+                                </div>
+                                <div class="expirience__item-text">
+                                    Закончил Тульский государственный университет по специальности - Информатика и вычислительная техника. Квалификация - бакалавр
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="expirience__item">
+                                <div class="expirience__item-head">
+                                    <div class="expirience__item-icon">
+                                        <img src="icons/experience/courses.svg" alt="university">
+                                    </div>
+                                    <h4 class="title title_fz14">Компьютерная академия Шаг</h4>
+                                    <div class="expirience__item-subtitle">Профиль Разработка ПО | (2018-2019) </div>
+                                </div>
+                                <div class="expirience__item-text">
+                                    Пощупал бэкенд, объектно-ориентированное программирование. Изучил синтаксис языков C++ и C#, но понял что бэкенд не моё, но для опыта пригодится.
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="expirience__item">
+                                <div class="expirience__item-head">
+                                    <div class="expirience__item-icon">
+                                        <img src="icons/experience/courses.svg" alt="university">
+                                    </div>
+                                    <h4 class="title title_fz14">Udemy</h4>
+                                    <div class="expirience__item-subtitle">Курсы по Web-разработке и продвинутый JS | (2019-2020) </div>
+                                </div>
+                                <div class="expirience__item-text">
+                                    Пройдены курсы, начиная с "hello world" в консоли до полифилов, деструкторов, промисов, замыкания и т.д в JS!
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="expirience__column">
+                    <h3 class="title title_fz20 expirience__column-title">Опыт работы</h3>
+                    <ul>
+                        <li>
+                            <div class="expirience__item">
+                                <div class="expirience__item-head">
+                                    <div class="expirience__item-icon">
+                                        <img src="icons/experience/designer.svg" alt="university">
+                                    </div>
+                                    <h4 class="title title_fz14">Freelance</h4>
+                                    <div class="expirience__item-subtitle">Проекты на фрилансе (2020-2022)</div>
+                                </div>
+                                <div class="expirience__item-text">
+                                    Разрабатывал различного рода проекты от решения университетских задачек до создания полноценных проектов лэндингов и web-магазинов
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="expirience__item">
+                                <div class="expirience__item-head">
+                                    <div class="expirience__item-icon">
+                                        <img src="icons/experience/developer.svg" alt="university">
+                                    </div>
+                                    <h4 class="title title_fz14">АО Щегловский вал</h4>
+                                    <div class="expirience__item-subtitle">инженер-электроник | Тула (2022 по наст. время)</div>
+                                </div>
+                                <div class="expirience__item-text">
+                                    Работаю на оборонном предприятии, занимаюсь поддержккой корпоративного сайта. Разрабатываю новый функционал, размещаю актуальную информацию.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="use" class="use">
+        <div class="container">
+            <h2 class="title title_fz16 use__title">Навыки</h2>
+            <div class="title title_fz36 use__subtitle">Что я использую в работе</div>
+            <div class="divider"></div>
+
+            <div class="use__wrapper">
+                <div class="use__item">
+                    <div class="use__item-img">
+                        <img class="use__item-logo" src="icons/skills/html5.svg" alt="html5">
+                    </div>
+                    <div class="title title_fz14 use__item-subtitle">HTML5</div>
+                    <div class="use__item-text">
+                        Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта
+                    </div>
+                </div>
+                <div class="use__item">
+                    <div class="use__item-img">
+                        <img class="use__item-logo" src="icons/skills/css3.svg" alt="CSS3">
+                    </div>
+                    <div class="title title_fz14 use__item-subtitle">CSS3</div>
+                    <div class="use__item-text">
+                        Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!
+                    </div>
+                </div>
+                <div class="use__item">
+                    <div class="use__item-img">
+                        <img class="use__item-logo" src="icons/skills/js.svg" alt="JavaScript">
+                    </div>
+                    <div class="title title_fz14 use__item-subtitle">JavaScript</div>
+                    <div class="use__item-text">
+                        Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое
+                    </div>
+                </div>
+                <div class="use__item">
+                    <div class="use__item-img">
+                        <img class="use__item-logo" src="icons/skills//jquery.svg" alt="Jquery">
+                    </div>
+                    <div class="title title_fz14 use__item-subtitle">JQuery</div>
+                    <div class="use__item-text">
+                        Библиотека Jquery позволит ускорить разработку. Без особой необходимости интегрировать в проект я её не применял.
+                    </div>
+                </div>
+                <div class="use__item">
+                    <div class="use__item-img">
+                        <img class="use__item-logo" src="icons/skills/react.svg" alt="React">
+                    </div>
+                    <div class="title title_fz14 use__item-subtitle">React</div>
+                    <div class="use__item-text">
+                        Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели
+                    </div>
+                </div>
+                <div class="use__item">
+                    <div class="use__item-img">
+                        <img class="use__item-logo" src="icons/skills/redux.svg" alt="Redux">
+                    </div>
+                    <div class="title title_fz14 use__item-subtitle">Redux</div>
+                    <div class="use__item-text">
+                        Библиотека для JavaScript с открытым исходным кодом, предназначенная для управления состоянием приложения. Использую вместе с React для разработки клиентской части.
+                    </div>
+                </div>
+                <div class="use__item">
+                    <div class="use__item-img">
+                        <img class="use__item-logo" src="icons/skills/sass.svg" alt="SASS/SCSS">
+                    </div>
+                    <div class="title title_fz14 use__item-subtitle">SASS/SCSS</div>
+                    <div class="use__item-text">
+                        Препроцессор, который служит для быстрого написания CSS стилей. Благодаря SASS можнно добавлять переменные, функции, наследование и многое другое к обычному документу CSS.
+                    </div>
+                </div>
+                <div class="use__item">
+                    <div class="use__item-img">
+                        <img class="use__item-logo" src="icons/skills/webpack.svg" alt="Webpack">
+                    </div>
+                    <div class="title title_fz14 use__item-subtitle">Webpack</div>
+                    <div class="use__item-text">
+                        Webpack – это статический модульный сборщик для приложений на JavaScript - бандлер. Он позволяет упаковывать, компилировать и организовывать все ресурсы проекта.
+                    </div>
+                </div>
+            </div>
+
+            <div class="use__ratings">
+                <div class="use__ratings-item">
+                    <div class="title title_fz14 use__ratings-title">Создание сайтов</div>
+                    <div class="use__ratings-percent">100%</div>
+                    <div class="use__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="use__ratings-item">
+                    <div class="title title_fz14 use__ratings-title">Создание приложений</div>
+                    <div class="use__ratings-percent">55%</div>
+                    <div class="use__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="use__ratings-item">
+                    <div class="title title_fz14 use__ratings-title">Работа с данными</div>
+                    <div class="use__ratings-percent">55%</div>
+                    <div class="use__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="use__ratings-item">
+                    <div class="title title_fz14 use__ratings-title">Креативность</div>
+                    <div class="use__ratings-percent">80%</div>
+                    <div class="use__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="use__ratings-item">
+                    <div class="title title_fz14 use__ratings-title">Создание дизайна</div>
+                    <div class="use__ratings-percent">90%</div>
+                    <div class="use__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="use__ratings-item">
+                    <div class="title title_fz14 use__ratings-title">Soft Skills</div>
+                    <div class="use__ratings-percent">77%</div>
+                    <div class="use__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio"  class="portfolio">
+        <div class="container">
+            <h2 class="title title_fz16 use__title">Портфолио</h2>
+            <div class="title title_fz36 use__subtitle">Мои работы</div>
+            <div class="divider"></div>
+            <div class="portfolio__wrapper">
+                <a href="/Uber" class="portfolio__item">
+                    <img src="img/works/uber.jpg" alt="uber">
+                </a> 
+                <a href="#" class="portfolio__item">
+                    <img src="img/works/bread.jpg" alt="bread">
+                </a> 
+                <a href="#" class="portfolio__item">
+                    <img src="img/works/ipad.jpg" alt="ipad">
+                </a> 
+                <a href="#" class="portfolio__item vertical">
+                    <img src="img/works/plans.jpg" alt="plans">
+                </a> 
+                <a href="/Pulse" class="portfolio__item">
+                    <img src="img/works/pulse.jpg" alt="pulse">
+                </a>
+                <a href="#" class="portfolio__item horizontal">
+                    <img src="img/works/mac.jpg" alt="mac">
+                </a>        
+            </div>
+        </div>
+    </section>
+
+    <section id="price" class="price">
+        <div class="container">
+            <h2 class="title title_fz16 use__title">Прайс-лист</h2>
+            <div class="divider"></div>
+            <div class="price__wrapper">
+                <div class="price__item">
+                    <div class="title title_fz14 price-title">Landing-page</div>
+                    <div class="title title_fz14 price-cost">от 4000 руб.</div>
+                    <div class="title title_fz12 price-subtitle">Одностраничный сайт для презентации услуг/товаров/...</div>
+                </div>
+                <div class="price__item">
+                    <div class="title title_fz14 price-title">Корпоративный сайт</div>
+                    <div class="title title_fz14 price-cost">от 15000 руб.</div>
+                    <div class="title title_fz12 price-subtitle">Сайт для вашего бизнеса или компании</div>
+                </div>
+                <div class="price__item">
+                    <div class="title title_fz14 price-title">Интернет-магазин</div>
+                    <div class="title title_fz14 price-cost">от 25000 руб.</div>
+                    <div class="title title_fz12 price-subtitle">Инструмент для ваших продаж в сети</div>
+                </div>
+                <div class="price__item">
+                    <div class="title title_fz14 price-title">Web-приложение</div>
+                    <div class="title title_fz14 price-cost">от 25000 руб.</div>
+                    <div class="title title_fz12 price-subtitle">Приложение внутри браузера для лучшего комфорта</div>
+                </div>
+                <div class="price__item">
+                    <div class="title title_fz14 price-title">Android/IOS Приложение</div>
+                    <div class="title title_fz14 price-cost">от 25000 руб.</div>
+                    <div class="title title_fz12 price-subtitle">Приложение для смартфона любой ОС</div>
+                </div>
+                <div class="price__item">
+                    <div class="title title_fz14 price-title">Дизайн</div>
+                    <div class="title title_fz14 price-cost">Индивидуально</div>
+                    <div class="title title_fz12 price-subtitle">Создам дизайн для вашего сайта/приложения...</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="contacts__photo">
+                    <img src="img/main_photo.jpg" alt="photo">
+                </div>
+                <div class="contacts__content">
+                    <h2 class="title title_fz16 contacts__title">Контакты</h2>
+                    <div class="title title_fz36 contacts__subtitle">Связь со мной</div>
+                    <div class="divider"></div>
+                    <div class="title title_fz14 contacts__text">Любым удобным для вас способом:</div>
+
+                    <div class="contacts__social">
+                        <a href="https://wa.me/89509299050?text=Привет,%20у%20меня%20есть%20к%20тебе%20деловое%20предложение!" class="contacts__link">
+                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                            width="35px" height="35px" viewBox="0 0 32.000000 32.000000"
+                            preserveAspectRatio="xMidYMid meet">
+                                <g transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)"
+                                fill="#000000" stroke="none">
+                                    <path d="M95 306 c-101 -44 -125 -178 -46 -257 65 -65 157 -65 222 0 124 124
+                                    -15 327 -176 257z m114 -61 c57 -29 65 -115 14 -155 -19 -15 -38 -19 -86 -18
+                                    l-62 2 -2 51 c-4 73 4 93 40 115 38 24 59 25 96 5z"/>
+                                    <path d="M117 228 c-24 -19 -38 -64 -28 -90 4 -13 6 -28 4 -34 -6 -18 77 -25
+                                    108 -9 30 16 39 33 39 74 0 55 -78 92 -123 59z m26 -54 c-5 -14 15 -29 41 -29
+                                    11 0 21 -6 23 -12 8 -21 -39 -15 -64 9 -23 21 -30 48 -16 61 9 10 22 -13 16
+                                    -29z"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="https://vk.com/callme_kirusha" class="contacts__link">
+                            <svg width="38px" height="38px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+                                <path d="M15.07294,2H8.9375C3.33331,2,2,3.33331,2,8.92706V15.0625C2,20.66663,3.32294,22,8.92706,22H15.0625C20.66669,22,22,20.67706,22,15.07288V8.9375C22,3.33331,20.67706,2,15.07294,2Zm3.07287,14.27081H16.6875c-.55206,0-.71875-.44793-1.70831-1.4375-.86463-.83331-1.22919-.9375-1.44794-.9375-.30206,0-.38544.08332-.38544.5v1.3125c0,.35419-.11456.5625-1.04162.5625a5.69214,5.69214,0,0,1-4.44794-2.66668A11.62611,11.62611,0,0,1,5.35419,8.77081c0-.21875.08331-.41668.5-.41668H7.3125c.375,0,.51044.16668.65625.55212.70831,2.08331,1.91669,3.89581,2.40625,3.89581.1875,0,.27081-.08331.27081-.55206V10.10413c-.0625-.97913-.58331-1.0625-.58331-1.41663a.36008.36008,0,0,1,.375-.33337h2.29169c.3125,0,.41662.15625.41662.53125v2.89587c0,.3125.13544.41663.22919.41663.1875,0,.33331-.10413.67706-.44788a11.99877,11.99877,0,0,0,1.79169-2.97919.62818.62818,0,0,1,.63544-.41668H17.9375c.4375,0,.53125.21875.4375.53125A18.20507,18.20507,0,0,1,16.41669,12.25c-.15625.23956-.21875.36456,0,.64581.14581.21875.65625.64582,1,1.05207a6.48553,6.48553,0,0,1,1.22912,1.70837C18.77081,16.0625,18.5625,16.27081,18.14581,16.27081Z"/>
+                            </svg>
+                        </a>
+                        <a href="https://t.me/callme_kirusha" class="contacts__link">
+                            <svg width="35px" height="35px" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 30C23.2863 30 30 23.2863 30 15C30 6.71375 23.2863 0 15 0C6.71375 0 0 6.71375 0 15C0 23.2863 6.71375 30 15 30ZM6.86375 14.675L21.3263 9.09875C21.9975 8.85625 22.5837 9.2625 22.3662 10.2775L22.3675 10.2762L19.905 21.8775C19.7225 22.7 19.2337 22.9 18.55 22.5125L14.8 19.7487L12.9912 21.4913C12.7912 21.6913 12.6225 21.86 12.235 21.86L12.5013 18.0438L19.4513 11.765C19.7537 11.4987 19.3837 11.3488 18.985 11.6138L10.3963 17.0212L6.69375 15.8663C5.89 15.6112 5.8725 15.0625 6.86375 14.675Z" fill="black"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сам вам напишу:</div>
+
+                    <form id='emailForm' class="contacts__form" action="#">
+                        <div class="required contacts__input">            
+                            <input name="name" id="name" type="text" required>
+                            <label for="name">Ваше имя</label>
+                        </div>
+                        <div class="required contacts__input">
+                            <input name="email" id="email" type="email" required>
+                            <label for="email">Ваша почта</label>
+                        </div>
+                        <div class="contacts__textarea">
+                            <textarea name="text" id="text" required></textarea>
+                            <label for="text">Ваше сообщение</label>
+                        </div>
+                        <div class="contacts__triggers" >
+                            <button type="submit" class="contacts__btn btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+    <script src="js/jquery.validate.min.js"></script> 
+    <script src="js/script.js"></script>
+</body>
+</html>
