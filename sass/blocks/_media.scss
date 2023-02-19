@@ -191,7 +191,7 @@
     .price {
         padding-top: 40px;
         &__wrapper {
-            margin-top: 20px;
+            margin-top: 23px;
             justify-content: center;
         }
     }
@@ -243,11 +243,17 @@
     }
     .about {
         padding-top: 15px;
+        padding-bottom: 40px;
         &__wrapper {
             grid-template: 340px auto auto / 1fr;
         }
         &__skills {
             grid-template-columns: 1fr;
+            &-item {
+                grid-template-columns: 40px 325px;
+                column-gap: 20px;
+                justify-content: center;
+            }
         }
     }
     .expirience {
